@@ -1,27 +1,7 @@
 # Shopping-Cart
 Proyek ini adalah aplikasi Shopping Cart yang dibangun menggunakan teknologi MongoDB, Vue.js, Express.js, dan Node.js. Aplikasi ini terdiri dari dua bagian utama: client untuk antarmuka pengguna dan server untuk API backend.
 
-# Struktur Proyek
-shopping-cart/
-├── client/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── views/
-│   │   ├── App.vue
-│   │   ├── main.js
-│   └── package.json
-├── server/
-│   ├── config/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── app.js
-│   └── package.json
-└── README.md
-
-# Persyaratan
+## Persyaratan
 Node.js
 MongoDB
 
@@ -67,3 +47,26 @@ Teknologi yang Digunakan
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - HTTP Client: Axios
+  
+## Struktur Proyek
+```bash
+shopping-cart/
+├── client/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── views/
+│   │   ├── App.vue
+│   │   ├── main.js
+│   └── package.json
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── app.js
+│   └── package.json
+└── README.md
+
+
