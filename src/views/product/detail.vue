@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     async addToCart(product){
-      await axios.post('http://localhost:8000/api/orders/user/1/add', {
+      await axios.post('http://localhost:8000/api/orders/update/user/1', {
         product: product
       })
       this.notif = true
